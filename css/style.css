@@ -1,0 +1,105 @@
+
+
+.redes {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+}
+
+.red-titulo{
+    color: white;
+    margin-right: 15px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.redes i{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.left-col {
+    background: linear-gradient(114deg, #B94866 96%, #74B3F4 4%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding: 1px;
+}
+
+.right-col {
+    background-color: #74B3F4;
+    padding: 7px;
+}
+
+.com {
+    padding: 7px;
+    color: white;
+}
+
+.bi-telephone-fill {
+    color: white;
+    padding: 7px;
+}
+
+.redes a{
+    text-decoration: none;
+}
+
+.left-col1 {
+    background: linear-gradient(114deg, #74B3F4 90%, white 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.right-col1 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-left: 30px;
+    padding: 10px;
+}
+
+.logo {
+    width: 230px;
+    height: 70px;
+    margin-left: 0%;
+    display: flex;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-shadow: none;
+}
+
+.nav1 :hover{
+    color: #74B3F4;
+}
+
+.consul{
+    border: none;
+}
+
+.cursos {
+    border: none;
+}
+
