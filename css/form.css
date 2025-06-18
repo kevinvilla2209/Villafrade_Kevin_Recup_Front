@@ -32,17 +32,13 @@
 }
 
 .form input[type="email"],
-.form input[type="password"] {
+.form input[type="password"],
+.form input[type="number"] {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     font-size: 14px;
     outline: none;
-}
-
-.form input[type="email"]:focus,
-.form input[type="password"]:focus {
-    border-color: #74B3F4;
 }
 
 .form input[type="submit"] {
