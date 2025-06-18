@@ -1,0 +1,71 @@
+.cont-login {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    margin-top: 130px;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    font-family: Arial, sans-serif;
+    text-align: center
+}
+
+.cont-login .inicio {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #53202e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form div {
+    gap: 30px ;
+    margin-bottom: 15px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.form input[type="email"],
+.form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+.form input[type="email"]:focus,
+.form input[type="password"]:focus {
+    border-color: #74B3F4;
+}
+
+.form input[type="submit"] {
+    background-color: #B94866;
+    color: white;
+    padding: 10px 15px;
+    justify-content: center;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #a53c5a;
+}
+
+.cont-login div a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #74B3F4;
+    font-weight: bold;
+}
