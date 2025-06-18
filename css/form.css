@@ -65,3 +65,27 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 576px) {
+    .cont-login {
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    .form input[type="email"],
+    .form input[type="password"],
+    .form input[type="number"],
+    .form input[type="submit"] {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .cont-login .inicio {
+        font-size: 1.2rem;
+    }
+
+    .cont-login div a {
+        font-size: 0.95rem;
+    }
+}
+

@@ -6,6 +6,7 @@ label {
 }
 
 input[type="text"],
+input[type="number"],
 input[type="tel"],
 input[type="email"],
 input[type="password"],
@@ -13,16 +14,16 @@ textarea {
   width: 100%;
   padding: 10px;
   font-size: 15px;
-  border: 1px solid #ccc;
   margin-bottom: 15px;
   box-sizing: border-box;
 }
 
 input[type="file"] {
-    width: 100%;
-    padding: 10px;
-    font-size: 15px;
-
+    width: 40%;
+    padding: 8px 10px;
+    font-size: 14px;
+    background-color: #f1f3f5;
+    color: #555;
 }
 
 textarea {
@@ -35,7 +36,6 @@ textarea {
   border: none;
   padding: 10px 20px;
   font-weight: bold;
-  border-radius: 5px;
 }
 
 .btn-warning:hover {
@@ -88,4 +88,78 @@ footer {
     height: 70px;
     margin-left: 0%;
     display: flex;
+}
+
+.text-muted {
+    font-size: 1.4rem;
+    margin-left: -12px ;
+}
+
+.text-muted1 {
+    font-size:1.0rem ;
+}
+
+@media screen and (max-width: 768px) {
+  .left-col1, .right-col1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .logo {
+    width: 180px;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .footer-cont {
+    padding: 0 15px;
+  }
+
+  .text-muted {
+    font-size: 1.1rem;
+    margin-left: 0;
+  }
+
+  .text-muted1 {
+    font-size: 0.95rem;
+  }
+
+  input[type="file"] {
+    width: 100%;
+  }
+
+  .btn-warning {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .text-muted {
+    font-size: 1rem;
+  }
+
+  .text-muted1 {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    padding: 15px 10px;
+  }
+
+  .left-col1, .right-col1 {
+    padding: 10px;
+  }
 }
