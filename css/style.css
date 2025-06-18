@@ -134,3 +134,67 @@ html, body {
     color: #74B3F4;
 }
 
+.cont-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cont-img .tienda {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    display: block;
+}
+
+.cont-img i {
+    position: absolute;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    background-color: rgba(185, 72, 102, 0.7);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-img .bi-chevron-left {
+    top: 50%;
+    left: 150px;
+    transform: translateY(-50%);
+}
+
+.cont-img .bi-chevron-right {
+    top: 50%;
+    right: 150px;
+    transform: translateY(-50%);
+}
+
+.cont-img .flecha-arriba {
+    position: absolute;
+    bottom: 170px;
+    left: 1830px;
+    font-size: 2rem;
+    color: white;
+    background-color: #B94866;
+    z-index: 2;
+}
+
+.ver {
+    position: absolute;
+    bottom: 250px;
+    left: 400px;
+    background-color: #B94866;
+    color: white;
+    padding: 20px 20px;
+    border: 1px solid #53202e ;
+    cursor: pointer;
+    z-index: 2;
+}
+
